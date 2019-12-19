@@ -8,8 +8,15 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+import CoreLocation
 
+class ViewController: UIViewController {
+    
+    //緯度、経度表示するラベル
+    @IBOutlet weak var latitude: UILabel!
+    
+    @IBOutlet weak var lonitude: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
