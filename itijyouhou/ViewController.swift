@@ -21,7 +21,7 @@ class ViewController: UIViewController {
     
     var locationManager :CLLocationManager!
     
-//    let dataList = ["300m","500m","1000m","2000m","3000m"]
+    let dataList = ["300m","500m","1000m","2000m","3000m"]
     
     
     override func viewDidLoad() {
