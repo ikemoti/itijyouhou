@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE516CB823CC471000D6A3CC /* resultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE516CB723CC471000D6A3CC /* resultViewController.swift */; };
+		CE516CBA23CC4B0D00D6A3CC /* shoptablecell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE516CB923CC4B0D00D6A3CC /* shoptablecell.swift */; };
+		CE516CBC23CF1D9400D6A3CC /* DataAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE516CBB23CF1D9400D6A3CC /* DataAPI.swift */; };
 		CECBCE1223AAFAFB00B01E0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECBCE1123AAFAFB00B01E0A /* AppDelegate.swift */; };
 		CECBCE1423AAFAFB00B01E0A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECBCE1323AAFAFB00B01E0A /* SceneDelegate.swift */; };
 		CECBCE1623AAFAFB00B01E0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECBCE1523AAFAFB00B01E0A /* ViewController.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE516CB723CC471000D6A3CC /* resultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resultViewController.swift; sourceTree = "<group>"; };
+		CE516CB923CC4B0D00D6A3CC /* shoptablecell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shoptablecell.swift; sourceTree = "<group>"; };
+		CE516CBB23CF1D9400D6A3CC /* DataAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataAPI.swift; sourceTree = "<group>"; };
 		CECBCE0E23AAFAFB00B01E0A /* itijyouhou.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = itijyouhou.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CECBCE1123AAFAFB00B01E0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CECBCE1323AAFAFB00B01E0A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +66,9 @@
 				CECBCE1323AAFAFB00B01E0A /* SceneDelegate.swift */,
 				CECBCE1523AAFAFB00B01E0A /* ViewController.swift */,
 				CECBCE1723AAFAFB00B01E0A /* Main.storyboard */,
+				CE516CBB23CF1D9400D6A3CC /* DataAPI.swift */,
+				CE516CB923CC4B0D00D6A3CC /* shoptablecell.swift */,
+				CE516CB723CC471000D6A3CC /* resultViewController.swift */,
 				CECBCE1A23AAFAFE00B01E0A /* Assets.xcassets */,
 				CECBCE1C23AAFAFE00B01E0A /* LaunchScreen.storyboard */,
 				CECBCE1F23AAFAFE00B01E0A /* Info.plist */,
@@ -139,8 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CECBCE1623AAFAFB00B01E0A /* ViewController.swift in Sources */,
+				CE516CBA23CC4B0D00D6A3CC /* shoptablecell.swift in Sources */,
 				CECBCE1223AAFAFB00B01E0A /* AppDelegate.swift in Sources */,
 				CECBCE1423AAFAFB00B01E0A /* SceneDelegate.swift in Sources */,
+				CE516CBC23CF1D9400D6A3CC /* DataAPI.swift in Sources */,
+				CE516CB823CC471000D6A3CC /* resultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
